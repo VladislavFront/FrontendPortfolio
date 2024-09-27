@@ -1,0 +1,13 @@
+.text-block {
+  width: 50%;
+}
+
+.text-block__text {
+  font-size: 2vw;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
