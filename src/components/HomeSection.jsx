@@ -8,7 +8,7 @@ const HomeSection = () => {
       </div>
       <div className="title-group">
         <h1 className="title-group__hello-title">Привет, я Влад</h1>
-        <h2 className="title-group__sub-hello-title active-color">Frontend-deweloper</h2>
+        <h2 className="title-group__sub-hello-title active-color">Frontend-developer</h2>
       </div>
     </section>
   )
