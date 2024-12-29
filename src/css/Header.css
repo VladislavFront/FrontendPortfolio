@@ -1,0 +1,61 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 800;
+  width: 100%;
+  background-color: var(--backgroundColor);
+  height: var(--headerHeight);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px 0 15px;
+  border: 5px solid var(--blackColor);
+}
+
+.header__nav-list {
+  display: flex; /* flex - видно, none - не видно */
+  justify-content: space-around;
+  list-style: none;
+}
+
+.header__nav-item {
+  padding: 0 25px 0 25px;
+  text-decoration: none;
+  color: var(--textColor);
+  font-size: 2vw;
+}
+
+.burger-button {
+  display: none; /* flex - видно, none - не видно */
+  width: 40px;
+  height: 30px;
+  align-items: center;
+  position: relative;
+}
+
+.burger-button span {
+  height: 3px;
+  width: 100%;
+  display: block;
+  transform: scale(1);
+  background-color: var(--activeColor);
+  transition: all .5s;
+}
+
+.burger-button::after, .burger-button::before {
+  height: 3px;
+  width: 100%;
+  content: '';
+  position: absolute;
+  display: block;
+  background-color: var(--activeColor);
+  transition: all .5s;
+}
+
+.burger-button::after {
+  bottom: 0;
+}
+
+.burger-button::before {
+  top: 0;
+}

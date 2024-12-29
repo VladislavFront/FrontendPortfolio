@@ -1,0 +1,311 @@
+@media screen and (max-width: 1350px) {
+
+  .hero__img {
+    padding: 80px 0 80px 0;
+  }
+
+}
+
+@media screen and (max-width: 1250px) {
+
+  .header__nav-list {
+    display: none; /* flex - видно, none - не видно */
+  }
+
+  .settings-menu.menu-open {
+    width: 50%;
+  }
+  
+  .burger-button {
+    display: flex; /* flex - видно, none - не видно */
+  }
+
+  .hero {
+    height: 600px;
+  }
+
+  .hero__img {
+    width: 300px;
+    height: 600px;
+  }
+
+  .hero::after {
+    margin-top: 520px;
+  }
+
+  .title-group__hello-title {
+    font-size: 6vw;
+  }
+  
+  .title-group__sub-hello-title {
+    font-size: 3vw;
+  }
+
+  .stack-content {
+    gap: 50px 100px;
+  }
+
+  @keyframes openSettingsMenu {
+    from {
+      margin-left: -50%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .settings-menu__theme-button {
+    font-size: 3vw;
+  }
+  
+  .hero {
+    height: 550px;
+  }
+  
+  .hero__img {
+    width: 250px;
+    height: 550px;
+  }
+  
+  .hero::after {
+    margin-top: 480px;
+  }
+  
+  .title-group {
+    width: 50%;
+  }
+
+  .title-group__hello-title {
+    font-size: 8vw;
+  }
+  
+  .title-group__sub-hello-title {
+    font-size: 4vw;
+  }
+
+  .section__title {
+    font-size: 7vw;
+  }
+
+  .hero-about {
+    display: none;
+  }
+
+  .text-block {
+    width: 100%;
+  }
+
+  .text-block__text {
+    font-size: 3vw;
+  }
+
+  .stack-content {
+    gap: 50px;
+  }
+
+  .content-item__img {
+    max-width: 150px;
+  }
+
+  .project-card {
+    font-size: 3vw;
+  }
+
+  .input-container__input {
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  .form__textarea {
+    font-size: 3vw;
+  }
+  
+  .form__button {
+    font-size: 3vw;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .settings-menu__colors-button {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .burger-menu__nav-list {
+    font-size: 6vw;
+  }
+
+  .hero {
+    height: 500px;
+  }
+  
+  .hero__img {
+    width: 200px;
+    height: 500px;
+  }
+
+  .hero::before {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .hero::after {
+    width: 10vw;
+    height: 10vw;
+    margin-top: 400px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .burger-menu.menu-open {
+    width: 60%;
+  }
+
+  .settings-menu.menu-open {
+    width: 60%;
+  }
+
+  .settings-menu__theme {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .settings-menu__theme-button {
+    margin: 10px 10px 0 0;
+  }
+
+  .section__title {
+    font-size: 10vw;
+  }
+  
+  .hero {
+    height: 450px;
+  }
+  
+  .hero__img {
+    width: 150px;
+    height: 450px;
+  }
+
+  .hero::after {
+    margin-top: 370px;
+  }
+
+  .stack-content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .content-item__img {
+    max-width: 100px;
+  }
+
+  .swiper-slide img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .project-card {
+    font-size: 5vw;
+    border-radius: 20px;
+  }
+
+  @keyframes openSettingsMenu {
+    from {
+      margin-left: -60%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  @keyframes openBurgerMenu {
+    from {
+      margin-right: -60%;
+    }
+    to {
+      margin-right: 0%;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+
+  .burger-menu.menu-open {
+    width: 100%;
+  }
+
+  .burger-menu__nav-list {
+    font-size: 8vw;
+  }
+
+  .settings-menu.menu-open {
+    width: 100%;
+    font-size: 7vw;
+  }
+
+  .settings-menu__theme-button {
+    font-size: 7vw;
+  }
+
+  .home-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title-group__hello-title {
+    font-size: 12vw;
+  }
+  
+  .title-group__sub-hello-title {
+    font-size: 5vw;
+  }
+
+  .hero::after {
+    margin-top: 390px;
+  }
+
+  .text-block__text {
+    font-size: 7vw;
+  }
+
+  .input-container__input {
+    width: 100%;
+    font-size: 6vw;
+  }
+
+  .form__textarea {
+    font-size: 6vw;
+  }
+  
+  .form__button {
+    font-size: 6vw;
+  }
+  
+  @keyframes openSettingsMenu {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+
+  @keyframes openBurgerMenu {
+    from {
+      margin-right: -100%;
+    }
+    to {
+      margin-right: 0%;
+    }
+  }
+
+}
